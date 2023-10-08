@@ -1,0 +1,9 @@
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+img{
+    position: absolute;
+    display: block;
+}
