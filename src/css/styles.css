@@ -1,9 +1,24 @@
 body {
     height: 100vh;
     margin: 0;
+    overflow: hidden;
+
 }
 
-img{
+img {
     position: absolute;
     display: block;
+}
+
+.brick-container {
+    position: absolute;
+}
+
+.brick {
+    width: 50px;
+    height: 25px;
+    background-color: #cc4444;
+    border: 1px solid #aa2222;
+    margin: 5px;
+    display: inline-block;
 }

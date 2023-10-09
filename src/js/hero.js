@@ -47,8 +47,6 @@ document.addEventListener('keydown', (event) => {
     }
 });
 
-
-
 document.addEventListener('mousemove', (event) => {
     const { clientX, clientY } = event;
     rotatingImage.updateRotation(clientX, clientY);
